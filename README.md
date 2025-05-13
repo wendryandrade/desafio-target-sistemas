@@ -15,7 +15,7 @@ Cada exercício está implementado como um projeto de console C# separado (.NET 
 ### ✅ Exercício 1 – Cálculo de soma utilizando repetição `while`
 Calcula a soma dos números de 1 até 13 utilizando `while`.
 
-Resposta: 91
+**Resposta:** 91
 
 ---
 
@@ -24,6 +24,9 @@ Recebe um número digitado pelo usuário e verifica se ele pertence à sequênci
 Mostra a sequência até o número informado e trata entradas inválidas.
 
 📥 Entrada via console
+
+**Resposta:**  
+O programa verifica se o número pertence à sequência de Fibonacci e exibe o resultado no console.
 
 ---
 
@@ -37,7 +40,7 @@ Lê o arquivo `dados.json` contendo o faturamento diário do mês e calcula:
 📄 **Arquivo externo:** `dados.json`  
 📝 Leitura feita com `System.Text.Json`
 
-Resposta:  
+**Resposta:**  
 - Menor faturamento: R$ 373,78  
 - Maior faturamento: R$ 48.924,24  
 - Média mensal: R$ 20.865,37  
@@ -46,9 +49,9 @@ Resposta:
 ---
 
 ### ✅ Exercício 4 – Percentual de Representação por Estado
-Calcula e exibe o percentual de representação de cada estado no faturamento total.
+Calcula e exibe o percentual de representação de cada estado no faturamento total de acordo com os dados fornecidos.
 
-Resposta:  
+**Resposta:**  
 - Total: R$ 180.759,98  
 - SP: 37,53%  
 - RJ: 20,29%  
@@ -64,12 +67,15 @@ Não utiliza funções prontas como `Reverse()`.
  
 📥 Entrada via console
 
+**Resposta:**  
+O programa percorre a string de trás pra frente e monta manualmente a versão invertida, exibindo o original e o resultado final no console.
+
 ---
 
 ## ▶️ Como executar
 
 - Abra os projetos individualmente no Visual Studio 2022 ou superior e compile
-- No Exercício 3, verifique se o arquivo dados.json está presente no diretório bin/Debug/net8.0
+- No Exercício 3, verifique se o arquivo `dados.json` está presente no diretório bin/Debug/net8.0 ou se está com a propriedade "Copiar para o diretório de saída" ativada.
 
 ---
 
@@ -79,5 +85,3 @@ Não utiliza funções prontas como `Reverse()`.
 - Comentários explicativos incluídos
 - Sem uso de métodos avançados ou prontos (conforme solicitado)
 - Projetos separados para facilitar navegação e testes
-
----
